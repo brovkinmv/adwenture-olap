@@ -1482,6 +1482,79 @@
         </Hierarchy>
       </Hierarchies>
     </Dimension>
+    <Dimension dwd:design-time-name="40823996-8883-4581-85ee-f7b01b2af71c">
+      <ID>География</ID>
+      <Name>География</Name>
+      <DimensionID>География</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fcf47598-c7e3-4ab7-bae8-6df3f774ed3e">
+          <AttributeID>Geography Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9aae30fd-0a99-44ee-99ad-b0e166388cef">
+          <AttributeID>Город</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a178be78-96c6-478d-a498-6ec89b848ca7">
+          <AttributeID>Провинция</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9ab3cbbf-6f2d-4be3-9c85-f7af4760530b">
+          <AttributeID>Регион</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9da4b0b2-6e27-452c-b01c-ca43a7a0684c">
+          <AttributeID>Страна</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ab49834-5a8d-41fc-8bbf-49fbfa511abb">
+          <AttributeID>Континент</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="65409c34-9d2b-4714-9f56-40788ec802ab">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d673efef-e503-4d32-b612-d788dc0df9a6">
+      <ID>Заказчик</ID>
+      <Name>Заказчик</Name>
+      <DimensionID>Заказчик</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="32ddfa9c-577c-42d6-8e5b-f3117ac865ef">
+          <AttributeID>Customer Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ecf80aa1-684a-49e8-9071-ef2f0e28dbc5">
+          <AttributeID>Заголовок</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc18f2a8-48b2-4bf4-a644-00b206bcb98f">
+          <AttributeID>Имя</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="059f3629-4106-4d81-a4ab-63125aa8d00c">
+          <AttributeID>Отчество</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e81e99b0-4080-4093-9b9f-ecf2491b8cf6">
+          <AttributeID>Фамилия</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad44fbc0-bc36-4ddb-af66-8bd28ee7e268">
+          <AttributeID>День рождения</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5502561c-c907-4afc-bee6-7b1c7afff856">
+          <AttributeID>Семейный статус</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3af805cf-c0cd-4a2a-b8df-fcf1e4ac8dac">
+          <AttributeID>Пол</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d1b1a8d-2a43-4868-a949-647231138fe5">
+          <AttributeID>Годовой доход</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f8b3490-d051-40eb-a794-a7950fd68b3b">
+          <AttributeID>Количество детей</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fb882d17-d20c-4ae9-a4e2-6ea8bf88ff7d">
+          <AttributeID>Образование</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="13ef4901-5869-41a5-858f-0e2da03d483b">
+          <AttributeID>Количество авто</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
   </Dimensions>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="47fd0a90-ee49-4781-9a4d-01175c862dca">
@@ -1693,6 +1766,24 @@
                 </KeyColumn>
               </KeyColumns>
               <AttributeID>Product Key</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9fccdd62-3bf8-4010-a284-f63ab2d7bcba">
+          <CubeDimensionID>Заказчик</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="98723b33-6be8-4f26-bf6b-bd425461996d">
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="18b95eb6-5265-49c6-8d6f-9463de857ca7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fa427b72-2109-40d1-940b-acdc8d26602d">
+                    <TableID>dbo_FactInternetSales</TableID>
+                    <ColumnID>CustomerKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <AttributeID>Customer Key</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
           </Attributes>
