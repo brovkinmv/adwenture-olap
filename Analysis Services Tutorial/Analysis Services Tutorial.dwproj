@@ -24,12 +24,8 @@
       <FullPath>Date.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Product.dim</Name>
-      <FullPath>Product.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Customer.dim</Name>
-      <FullPath>Customer.dim</FullPath>
+      <Name>Продукт.dim</Name>
+      <FullPath>Продукт.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
