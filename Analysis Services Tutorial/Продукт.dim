@@ -475,6 +475,7 @@
     <Hierarchy dwd:design-time-name="9cdf1510-e908-4f05-9d35-378d8e5b032d">
       <ID>Иерархия</ID>
       <Name>Иерархия</Name>
+      <AllMemberName>Все</AllMemberName>
       <Levels>
         <Level dwd:design-time-name="bdc5b639-9bec-4414-adbe-8b158550ac83">
           <ID>Категория</ID>

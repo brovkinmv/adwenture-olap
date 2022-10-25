@@ -27,6 +27,14 @@
       <Name>Продукт.dim</Name>
       <FullPath>Продукт.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Заказчик.dim</Name>
+      <FullPath>Заказчик.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>География.dim</Name>
+      <FullPath>География.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
