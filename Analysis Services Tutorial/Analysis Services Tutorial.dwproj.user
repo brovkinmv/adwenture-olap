@@ -3,6 +3,20 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2017</Id>
+            <Name>Adventure Works DW2017</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUDyau6cwaUeqzBY8lRq5BQAAAAAuAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEANwAAABBmAAAAAQAAIAAAABQ63WVgDz8NoIitp5zQMuSk5oRacwvCf7wiy1sTCbkxAAAAAA6AAAAAAgAAIAAAAFwqMfMLhHboFkM/GvwrGQ7w4Zj+HqiEXZbjiYgMtFzyEAAAAOD4Kh+kjArniABhaksFaFxAAAAAmv/+0E2ItK0IVKex2Y7teAcJRNy7auwRbDAqJZBmetsp3+P0FlrP33+emXeYFF5lwSsg7oSWa1A4Wy2j4LbfNw==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2017</Id>
+            <Name>Adventure Works DW2017</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUDyau6cwaUeqzBY8lRq5BQAAAAAuAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEANwAAABBmAAAAAQAAIAAAALUOPAzOd/fhxnyhzrQlsiqwYMjL7b79voVnuBc9H/LRAAAAAA6AAAAAAgAAIAAAANQHnhQCN4Dpvo4h2XQNS4ZcUFQnsvAEizXvvLlGnLLnEAAAAJlNq3SEd5ZUB8hidsyILcNAAAAAld8aO42OiOxF9TiPIoYah0cQ3hco9U5o2ZrUaGol5E4SDo1Z/takzGKbGy4soQ1Xj3s8NF52KfHuZW4NbIOCQQ==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
         <TargetServer>localhost</TargetServer>
         <TargetDatabase>Analysis Services Tutorial</TargetDatabase>
         <StartObject>
