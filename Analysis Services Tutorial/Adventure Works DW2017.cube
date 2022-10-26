@@ -1553,7 +1553,36 @@
         <Attribute dwd:design-time-name="13ef4901-5869-41a5-858f-0e2da03d483b">
           <AttributeID>Количество авто</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="c0a69873-59bd-4bd8-b63b-002f42b06819">
+          <AttributeID>Geography Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d90d54b-4ebc-4c42-9cf2-b4f8589f7dab">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a642d5d3-2b7a-42c9-ba7e-6ba93d85df36">
+          <AttributeID>Country Region Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a97eacb6-04ea-4d29-b69e-709de25bce1b">
+          <AttributeID>English Country Region Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ddfad90e-4970-40bb-95d6-a5a48eb210b1">
+          <AttributeID>Sales Territory Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ba4e5dc-282b-4a89-bfba-609e962c3eab">
+          <AttributeID>Sales Territory Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="36b02159-b295-4a53-8117-f598efb7801a">
+          <AttributeID>Sales Territory Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="58f908e6-f916-41a1-8420-dc152c6f83ac">
+          <AttributeID>Sales Territory Group</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="307d4a81-ff76-442e-a1f7-320d97492d3a">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
