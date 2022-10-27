@@ -135,25 +135,7 @@
                 <Attribute Id="Product Subcategory Key" />
                 <Attribute Id="Product Category Key" />
               </Attributes>
-              <Position x="20" y="116" />
-            </Shape>
-            <Shape Id="Наименование" Expanded="false">
-              <Attributes>
-                <Attribute Id="Наименование" />
-              </Attributes>
               <Position x="20" y="68" />
-            </Shape>
-            <Shape Id="Модель" Expanded="false">
-              <Attributes>
-                <Attribute Id="Модель" />
-              </Attributes>
-              <Position x="293" y="68" />
-            </Shape>
-            <Shape Id="Product Line Name" Expanded="false">
-              <Attributes>
-                <Attribute Id="Product Line Name" />
-              </Attributes>
-              <Position x="567" y="68" />
             </Shape>
             <Shape Id="Product Key" Expanded="false">
               <Attributes>
@@ -171,6 +153,24 @@
                 <Attribute Id="Цена поставщика" />
               </Attributes>
               <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Наименование" Expanded="false">
+              <Attributes>
+                <Attribute Id="Наименование" />
+              </Attributes>
+              <Position x="293" y="20" />
+            </Shape>
+            <Shape Id="Модель" Expanded="false">
+              <Attributes>
+                <Attribute Id="Модель" />
+              </Attributes>
+              <Position x="567" y="20" />
+            </Shape>
+            <Shape Id="Product Line Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Product Line Name" />
+              </Attributes>
+              <Position x="841" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -255,6 +255,10 @@
         <AttributeRelationship dwd:design-time-name="f955821f-470e-4d3d-9019-4f8c61ac948d">
           <AttributeID>English Product Category Name</AttributeID>
           <Name>Категория</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e56073c9-b74d-44cf-92a4-f63d3ac4475d">
+          <AttributeID>Наименование</AttributeID>
+          <Name>Наименование</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -457,46 +461,6 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d6a81b9e-4ad1-43d2-a27d-c6c02692c71c">
-      <ID>Product Subcategory Key</ID>
-      <Name>Product Subcategory Key</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="0f3eece7-2638-46e0-88c5-d20ace240240">
-          <DataType>Integer</DataType>
-          <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1666a9c-b0d3-498e-9f68-d8ef75608130">
-            <TableID>dbo_DimProductSubcategory</TableID>
-            <ColumnID>ProductSubcategoryKey</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="dfc7df5d-faf9-494a-aac4-3d527f2283ee">
-          <AttributeID>Product Category Key</AttributeID>
-          <Name>Product Category Key</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="67152a4a-514d-4eb7-ae94-8a823c019538">
-      <ID>Product Category Key</ID>
-      <Name>Product Category Key</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="51c6b854-01c3-4dea-aef6-2f7fa0cf5296">
-          <DataType>Integer</DataType>
-          <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6b76cd9-ac01-40a1-a3f1-baba21d13c26">
-            <TableID>dbo_DimProductCategory</TableID>
-            <ColumnID>ProductCategoryKey</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
     <Attribute dwd:design-time-name="77f5707f-ada5-4b36-ba13-e18cdb95c943">
       <ID>English Product Subcategory Name</ID>
       <Name>Подкатегория</Name>
@@ -575,6 +539,11 @@
           <ID>Наименование</ID>
           <Name>Наименование</Name>
           <SourceAttributeID>Наименование</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6af2e8be-bd3c-4739-9132-27b374684ae4">
+          <ID>Product Key</ID>
+          <Name>Product Key</Name>
+          <SourceAttributeID>Product Key</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>

@@ -1463,12 +1463,6 @@
         <Attribute dwd:design-time-name="ccbb3ba3-2656-4704-af53-8206d941c36e">
           <AttributeID>Модель</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3ec7cd85-0813-42a2-ba99-e0f0637543c7">
-          <AttributeID>Product Subcategory Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="c9f9a3a2-cfde-4ae9-91a6-4cfd134bff01">
-          <AttributeID>Product Category Key</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="a964d106-9df2-4156-89b3-091b28d5d991">
           <AttributeID>English Product Subcategory Name</AttributeID>
         </Attribute>
